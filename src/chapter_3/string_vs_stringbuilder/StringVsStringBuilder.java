@@ -3,6 +3,12 @@ package chapter_3.string_vs_stringbuilder;
 public class StringVsStringBuilder {
 
     public static void main(String[] args) {
+
+        String a = "palm tree";
+        a = a.toUpperCase();
+        System.out.println(a);
+
+
         //immutable
         String s = "counting: ";
 

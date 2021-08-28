@@ -17,14 +17,17 @@ public class Formatter {
 
         LocalTime lt = LocalTime.of(4, 17, 37);
 
-        DateTimeFormatter formatterStyled = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+        DateTimeFormatter shortFormatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+        DateTimeFormatter mediumFormatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
 
-        System.out.println(ldt.format(formatterStyled));
-        System.out.println(formatterStyled.format(ldt));
+        System.out.println(ldt.format(shortFormatter));
+        System.out.println(shortFormatter.format(ldt));
+
+        System.out.println(ldt.format(mediumFormatter));
+
 
         DateTimeFormatter formatterPattern = DateTimeFormatter.ofPattern("MMMM dd, yy @ HH:mm");
-
-        System.out.println(lt.format(formatterPattern));
+        System.out.println(ldt.format(formatterPattern));
 
 
     }
