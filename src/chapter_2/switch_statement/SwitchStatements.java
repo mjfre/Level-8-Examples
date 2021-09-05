@@ -22,22 +22,24 @@ public class SwitchStatements {
 //        int tooManyCats = 4;
         final int tooManyCats = 10;
 
-        int numCats =  0;
+        int numCats = 0;
 
-        switch(numCats){
-            default:
-                System.out.println("Something else about cats");
-                break;
+        switch (numCats) {
             case 0:
-                System.out.println("You should get a cat!");
-                break;
             case 1:
                 System.out.println("That's a good number of cats");
                 break;
             case tooManyCats:
+            default:
+                System.out.println("Something else about cats");
                 System.out.println("That's too many cats!");
                 break;
+
         }
+
+        int[] a = {4, 5,  6};
+        int[] b = {4, 5,  6};
+        a.equals(b);
 
     }
 }

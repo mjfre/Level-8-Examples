@@ -19,7 +19,12 @@ public class CreatingDateTimes {
         LocalDateTime dt1 = LocalDateTime.now();
         System.out.println(dt1);
 
+        LocalDate ld2 = LocalDate.of(1990, 8, 3);
+
+        LocalTime lt2 = LocalTime.of(3, 27, 54, 20);
+
         LocalDateTime dt2 = LocalDateTime.of(1990, Month.AUGUST, 3, 3, 27);
         System.out.println(dt2);
+
     }
 }

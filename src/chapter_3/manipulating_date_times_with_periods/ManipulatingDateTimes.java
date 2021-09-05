@@ -10,22 +10,22 @@ public class ManipulatingDateTimes {
         LocalDateTime ldt = LocalDateTime.now();
 
         //subtracting days
-//        System.out.println(ldt);
-//        ldt = ldt.minusDays(2);
-//        System.out.println(ldt);
+        System.out.println(ldt);
+        ldt = ldt.minusDays(2);
+        System.out.println(ldt);
 
-//        Period period = Period.ofDays(2);
-//        ldt = ldt.minus(period);
+        Period period = Period.ofDays(2);
+        ldt = ldt.minus(period);
 
         //more complex period of time
         Period period2 =  Period.of(1, 3, 2);
-//        ldt = ldt.plus(period2);
-//        System.out.println(ldt);
+        ldt = ldt.plus(period2);
+        System.out.println(ldt);
 
 //        Period badPeriod = Period.ofYears(1).ofMonths(3).ofDays(2);
 //        System.out.println(ldt.plus(badPeriod));
 
-        printPeriod5Times(period2);
+//        printPeriod5Times(period2);
     }
 
     public static void printPeriod5Times(Period period){

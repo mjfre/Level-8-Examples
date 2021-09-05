@@ -23,11 +23,11 @@ public class Formatter {
         System.out.println(ldt.format(shortFormatter));
         System.out.println(shortFormatter.format(ldt));
 
-        System.out.println(ldt.format(mediumFormatter));
-
+        System.out.println(lt.format(mediumFormatter));
+        System.out.println(ld.format(shortFormatter));
 
         DateTimeFormatter formatterPattern = DateTimeFormatter.ofPattern("MMMM dd, yy @ HH:mm");
-        System.out.println(ldt.format(formatterPattern));
+//        System.out.println(ldt.format(formatterPattern));
 
 
     }

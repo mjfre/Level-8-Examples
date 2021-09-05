@@ -22,10 +22,10 @@ public class TernaryOperator {
         String tiger = "tiger";
         String lion = "lion";
 
-        final String statement = tiger = " is bigger";
+//        final String statement = 250  > 338 ? lion : tiger =  " is bigger";
 
-        System.out.println(statement);
-        System.out.println(tiger);
+//        System.out.println(statement);
+//        System.out.println(tiger);
 
 
         String name = null;
