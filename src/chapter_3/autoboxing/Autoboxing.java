@@ -9,15 +9,29 @@ public class Autoboxing {
 
     public static void main(String[] args) {
 
+        /*
+        Wrapper classes
+
+        double  -   Double
+        float   -   Float
+        long    -   Long
+        int     -   Integer
+        char    -   Character
+        short   -   Short
+        boolean -   Boolean
+        byte    -   Byte
+        */
+
         List<Integer> numbers = new ArrayList<>();
         numbers.add(1);
         numbers.add(null);
-        for(int i : numbers){
+        for (int i : numbers) {
             System.out.println(i);
         }
 
         Map<Short, Integer> usCitizenAgeCount = new HashMap<>();
-        usCitizenAgeCount.put((short)5, 5_143_345);
+        usCitizenAgeCount.put((short) 5, 5_143_345);
         System.out.println(usCitizenAgeCount.get(5));
+
     }
 }
