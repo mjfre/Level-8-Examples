@@ -44,7 +44,7 @@ public class PreVersusPostIncrement {
         int z = 5;
         int z2 = z-- == 5 ? z : 0;
 
-        System.out.println(z2);
+//        System.out.println(z2);
 
 
         int age = 15;

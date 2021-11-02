@@ -6,22 +6,21 @@ public class SimpleExample {
 
     public static void main(String[] args) {
 
-        int a = 5;
-        doubleNumber(a);
-        System.out.println(a);
-
+//        int a = 5;
+//        doubleNumber(a);
+//        System.out.println(a);
 
         Cat c = new Cat();
-        removeLife(c);
+        removeLife2(c);
         System.out.println(c.numLives);
-
-        String s = "water";
-        capitalize(s);
-        System.out.println(s);
-
-        int[] nums = {2,4,6,8};
-        multiplyEachElementByTwo(nums);
-        System.out.println(Arrays.toString(nums));
+//
+//        String s = "water";
+//        capitalize(s);
+//        System.out.println(s);
+//
+//        int[] nums = {2,4,6,8};
+//        multiplyEachElementByTwo(nums);
+//        System.out.println(Arrays.toString(nums));
 
     }
 
@@ -32,6 +31,7 @@ public class SimpleExample {
     static public void doubleNumbr(int a){
 
     }
+
     public static void removeLife(Cat cat){
         cat.numLives -= 1;
     }

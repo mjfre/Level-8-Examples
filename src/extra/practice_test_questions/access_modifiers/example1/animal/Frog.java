@@ -7,8 +7,6 @@ public class Frog {
     protected void ribbit() {}
     void jump() {}
 
-    protected static void lick() {}
-
     public static void main(String[] args) {
         Tadpole t = new Tadpole();
         t.ribbit();

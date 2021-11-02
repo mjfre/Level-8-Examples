@@ -14,22 +14,33 @@ public class Runner extends Plant {
 //        defaultStaticMethod();
 //        privateStaticMethod();
 
-        Bromeliad b = new Bromeliad();
-        b.publicMethod();
+//        Bromeliad b = new Bromeliad();
+//        b.publicMethod();
 //        b.protectedMethod();
 //        b.defaultMethod();
 //        b.privateMethod();
-
-        Plant p = new Plant();
-        p.publicMethod();
-   /*     p.protectedMethod();
-        p.defaultMethod();
-        p.privateMethod();*/
-
-        Runner r = new Runner();
-        r.protectedMethod();
+//
+//        Plant p = new Plant();
+//        p.publicMethod();
+//        p.protectedMethod();
+//        p.defaultMethod();
+//        p.privateMethod();
+//
+//        Plant p = new Bromeliad();
+//        p.publicMethod();
+//        p.protectedMethod();
+//        p.defaultMethod();
+//        p.privateMethod();
+//
+//        Runner r = new Runner();
+//        r.publicMethod();
+//        r.protectedMethod();
+//        r.defaultMethod();
+//        r.privateMethod();
+//
+//        Runner r = new Runner();
+//        r.protectedMethod();
     }
-
 
 
 }

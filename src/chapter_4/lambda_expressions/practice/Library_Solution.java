@@ -79,6 +79,13 @@ public class Library_Solution {
         //print out all of the books that contain the word "water" in the title were published before 1900, and contain the
         //phrase "learn how to swim" in the description.
         library.print(books, book -> book.getTitle().contains("water") && book.getPublicationDate() < 1900 && book.getDescription().contains("learn how to swim"));
+        library.print(books, book -> {
+            if(book.getTitle().contains("water"))
+                if(book.getPublicationDate() < 1900)
+                    if(book.getDescription().contains("learn how to swim"))
+                        return true;
+            return false;
+        });
 
     }
 }

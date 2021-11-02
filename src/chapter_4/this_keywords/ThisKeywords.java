@@ -9,7 +9,6 @@ public class ThisKeywords {
     }
 
     public ThisKeywords(String name) {
-        super();
         this.name = name;
     }
 

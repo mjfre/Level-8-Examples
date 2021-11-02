@@ -3,19 +3,17 @@ package chapter_4.overloading;
 import java.util.Date;
 
 public class Overloading2 {
+
     public static void main(String[] args) {
-
+        print(null);
     }
 
-    public static void sayHello(String name){
-        System.out.println("Hello " + name);
+    public static void print(Object o){
+        System.out.println("Object");
     }
 
-    public static void sayHello(String name, int age){
-        System.out.println("Hello " + name + ", how is being " + age + " years old?");
+    public static void print(String s){
+        System.out.println("String");
     }
 
-    public static  void sayHello(String name,  int age, Date birthday){
-
-    }
 }

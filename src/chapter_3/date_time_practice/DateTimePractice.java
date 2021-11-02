@@ -6,7 +6,7 @@ import java.time.Period;
 public class DateTimePractice {
 
     public static void main(String[] args) {
-
+        method7(10, 3, 2021);
     }
 
     //Print out the current LocalDateTime
@@ -40,7 +40,7 @@ public class DateTimePractice {
     }
 
     //(Using the Period class) Take in int month, int day, int year, and print out the date in 3 month intervals for 3 years
-    public static void method7() {
+    public static void method7(int month, int day, int year) {
 
     }
 

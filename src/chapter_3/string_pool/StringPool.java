@@ -27,17 +27,19 @@ public class StringPool {
 //        System.out.println(d == a);
 
 
-        String c = "potato";
-        c += " salad";
-        System.out.println(c == a);
+//        String c = "potato";
+//        c += " salad";
+//        System.out.println(c == a);
 
 
 //        String e = "potato " + "salad";
 //        System.out.println(e == a);
 
+        System.out.println(a.toString() == a);
 
-        c = c.intern();
-        System.out.println(c == a);
+//
+//        c = c.intern();
+//        System.out.println(c == a);
 
     }
 }

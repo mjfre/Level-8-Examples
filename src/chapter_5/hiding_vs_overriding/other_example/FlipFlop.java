@@ -2,7 +2,7 @@ package chapter_5.hiding_vs_overriding.other_example;
 
 public class FlipFlop extends Shoes{
 
-    public static boolean hasLaces(){
+    public boolean hasLaces(){
         return false;
     }
 

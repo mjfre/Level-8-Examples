@@ -2,6 +2,7 @@ package chapter_4.pass_by_value;
 
 
 public class Lion {
+
     public void roar(String roar1, StringBuilder roar2) {
         roar1.concat("!!!");
         roar2.append("!!!");
@@ -13,4 +14,5 @@ public class Lion {
         new Lion().roar(roar1, roar2);
         System.out.println(roar1 + " " + roar2);
     }
+
 }

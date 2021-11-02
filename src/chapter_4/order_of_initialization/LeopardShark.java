@@ -10,6 +10,11 @@ public class LeopardShark {
 
     final static String environment;
 
+    public LeopardShark(int numSpots) {
+        this.numSpots = numSpots;
+        System.out.println("constructor");
+    }
+
     static {
         environment = "ocean";
         System.out.println("static initializer");
@@ -18,11 +23,6 @@ public class LeopardShark {
     {
         numSpots = 16;
         System.out.println("instance initializer");
-    }
-
-    public LeopardShark(int numSpots) {
-        this.numSpots = numSpots;
-        System.out.println("constructor");
     }
 
 }

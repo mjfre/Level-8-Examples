@@ -8,7 +8,7 @@ public class BackedLists {
     public static void main(String[] args) {
         //page 137
 
-        String[] array = {"hawk", "robin" }; // [hawk, robin]
+        String[] array = {"hawk", "robin"}; // [hawk, robin]
         List<String> list = Arrays.asList(array); // returns fixed size list 22: System.out.println(list.size()); // 2
         list.set(1, "test"); // [hawk, test]
         array[0] = "new"; // [new, test]
