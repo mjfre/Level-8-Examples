@@ -28,11 +28,11 @@ public class ZooCheckTrait {
 		ZooCheckTrait zoo = new ZooCheckTrait();
 		//zoo.print(animals, new CheckIfHopper());
 
-		zoo.print(animals, cheeseburger -> cheeseburger.canHop());
-//		zoo.print(animals, (Animal a) -> {
-//			System.out.println("hello");
-//			return a.canHop();
-//		});
+		zoo.print(animals, a -> a.canHop());
+		zoo.print(animals, (Animal a) -> {
+			System.out.println("hello");
+			return a.canHop();
+		});
 //
 		zoo.print(animals, (a) -> a.canSwim());
 		zoo.print(animals, a -> a.getSpecies().startsWith("k"));

@@ -5,15 +5,15 @@ public abstract class AbstractClassModifiers {
 
     int numberOfSwans = 5;
 
-    static final int numberOfFeetPerSwan;
+//    static final int numberOfFeetPerSwan;
 
-    {
-        numberOfSwans = 100;
-    }
-
-    static{
-        numberOfFeetPerSwan = 40;
-    }
+//    {
+//        numberOfSwans = 100;
+//    }
+//
+//    static{
+//        numberOfFeetPerSwan = 40;
+//    }
 
     public void produceSwan(){
         numberOfSwans += 1;

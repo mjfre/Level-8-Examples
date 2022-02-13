@@ -8,14 +8,15 @@ public class TryCatch {
     public static void main(String[] args) {
 
         try {
-            throwException();
-            try {
-                throw new Exception();
-            } catch (Exception exception) {
-                exception.printStackTrace();
-            } finally {
-                System.out.println("out");
-            }
+            throw new Exception();
+//            throwException();
+//            try {
+//                throw new Exception();
+//            } catch (Exception exception) {
+//                exception.printStackTrace();
+//            } finally {
+//                System.out.println("out");
+//            }
         } catch (IOException e) {
 
         } catch (Exception e) {

@@ -25,7 +25,5 @@ public interface InterfaceModifier {
         System.out.println("1600 Pennsylvania Avenue");
     }
 
-
-
 }
 

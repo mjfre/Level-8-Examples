@@ -9,5 +9,6 @@ class Marsupial {
     public void getMarsupialDescription() {
         System.out.println("Marsupial walks on two legs: " + isBiped());
     }
+
 }
 

@@ -15,7 +15,7 @@ public class PreVersusPostIncrement {
 //        System.out.println(++x);
 
 
-//        int x = 0;
+//        int x = 0;`
 //        int y = 5;
 //
 //        y = y + ++x;
@@ -26,15 +26,20 @@ public class PreVersusPostIncrement {
 
 //        int x = 0;
 //        int y = 5;
-//        y = y++ + x++ +y;
+//        y = y+++x+++y;
 //        System.out.println(x);
 //        System.out.println(y);
 
-        //p 59
-        int x = 3;
-        int y = ++x * 5 / x-- + --x;
-        System.out.println("x is " + x);
-        System.out.println("y is " + y);
+
+//        //p 59
+//        int x = 3;
+//        int y = ++x * 5 / x-- + --x;
+//        System.out.println("x is " + x);
+//        System.out.println("y is " + y);
+
+
+//        int y = 4 * 5 / 4 + 2;
+
 
 //
 //
@@ -44,7 +49,7 @@ public class PreVersusPostIncrement {
         int z = 5;
         int z2 = z-- == 5 ? z : 0;
 
-//        System.out.println(z2);
+        System.out.println(z2);
 
 
         int age = 15;

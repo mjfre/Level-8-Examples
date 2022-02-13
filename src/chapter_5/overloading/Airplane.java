@@ -16,15 +16,16 @@ public class Airplane {
         System.out.println("Weeee we're traveling to " + cityDestination);
     }
 
-    public void travel(int miles){
+    public int travel(int miles){
         System.out.println("We're traveling " + miles + " miles");
+        return 0;
     }
 
     public void travel(String destination, boolean oneWay){
         System.out.println("Taking a " + (oneWay ? "one way " : "") + "flight to " + destination);
     }
 
-    public void travel(boolean international, String destination){
+    private void travel(boolean international, String destination){
         System.out.println("Taking a " + (international ? "international " : "") + "flight to " + destination);
     }
 

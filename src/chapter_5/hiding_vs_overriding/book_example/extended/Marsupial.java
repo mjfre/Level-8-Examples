@@ -2,6 +2,10 @@ package chapter_5.hiding_vs_overriding.book_example.extended;
 
 class Marsupial {
 
+    int pocketDepth = 5;
+
+    int age = 5;
+
     public boolean isBiped() {
         return false;
     }

@@ -8,7 +8,9 @@ public class RemoveIf {
 
     public static void main(String[] args) {
 
-//         List<String> animals = Arrays.asList("Lion", "Tiger", "Bear");
+//        String[] myAnimals = {"Lion", "Tiger", "Bear"};
+//        List<String> animals = Arrays.asList(myAnimals);
+//        myAnimals[0] = "hello";
 
         List<String> animals = new ArrayList<>();
         animals.add("Lion");

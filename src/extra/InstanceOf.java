@@ -11,9 +11,9 @@ public class InstanceOf {
 
         System.out.println(object instanceof Object);
         System.out.println(string instanceof Object);
-        System.out.println(random instanceof String);
+//        System.out.println(random instanceof String);
 
-        StringBuilder
+//        StringBuilder
     }
 
 }
